@@ -9,7 +9,7 @@
 
 //To use
 1. npm init
-2. npm install --save-dev gulp ** Seems not to be a depency of itself
+2. npm install --save-dev gulp      ** Refusing to install gulp as a dependency of itself
 3. npm install --save-dev gulp-concat
 4. npm install --save-dev gulp-uglify
 5. npm install gulp-clean-css --save-dev
