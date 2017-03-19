@@ -15,4 +15,3 @@
 5. npm install gulp-clean-css --save-dev
 6. npm i gulp-htmlmin --save-dev
 7. npm install --save-dev gulp-image
-8. npm install --save-dev @cedx/gulp-php-minify 
