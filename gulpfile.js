@@ -10,7 +10,7 @@ const gulp = require('gulp'),
 
 gulp.task('minify:JS', function () {
 /* Minify JS */
-  gulp.src('js/dev/*.js')
+  gulp.src('js/*.js')
   .pipe(concat('main.min.js'))
   .pipe(uglify())
   .pipe(gulp.dest('build/js/'))
@@ -18,7 +18,7 @@ gulp.task('minify:JS', function () {
 
 gulp.task('minify:CSS', function () {
 /* Minify CSS */
-  return gulp.src('css/dev/*.css')
+  return gulp.src('css/*.css')
     .pipe(concat('main.min.css'))
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('build/css/'));
