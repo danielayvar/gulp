@@ -1,15 +1,15 @@
 # gulp
 
 //To install
-sudo install -g gulp
-npm install -g gulp
-npm install gulp
+1. sudo install -g gulp or
+2. npm install -g gulp
+3. npm install gulp
 
 
 
 //To use
 1. npm init
-2. npm install --save-dev gulp
+2. npm install --save-dev gulp ** Seems not to be a depency of itself
 3. npm install --save-dev gulp-concat
 4. npm install --save-dev gulp-uglify
 5. npm install gulp-clean-css --save-dev
